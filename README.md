@@ -23,17 +23,17 @@ ClauseWise is an intelligent legal document analyzer that automatically:
 
 1. Clone the repository:
 
-gh repo clone aslam-03/Clausewise-Legal-Document-Analyzer
+  - gh repo clone aslam-03/Clausewise-Legal-Document-Analyzer
 
 2.Navigate to project directory:
 
-cd Clausewise Legal Document Analyzer
+  - cd Clausewise Legal Document Analyzer
 
 3.Install dependencies:
 
-pip install -r requirements.txt
+  - pip install -r requirements.txt
 
-python -m spacy download en_core_web_sm
+  - python -m spacy download en_core_web_sm
 
 4.Set up API key:
 
@@ -44,11 +44,11 @@ python -m spacy download en_core_web_sm
 
 Command Line Interface:
   
-  python main.py
+ - python main.py
 
 Web Interface:
       
-  streamlit run app/viewer.py
+ - streamlit run app/viewer.py
 
 ## Project Structure
 Clausewise Legal Document Analyzer/
