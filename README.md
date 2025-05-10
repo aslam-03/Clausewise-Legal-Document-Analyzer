@@ -32,6 +32,7 @@ cd Clausewise Legal Document Analyzer
 3.Install dependencies:
 
 pip install -r requirements.txt
+
 python -m spacy download en_core_web_sm
 
 4.Set up API key:
@@ -49,6 +50,7 @@ Web Interface:
       
   streamlit run app/viewer.py
 
+## Project Structure
 Clausewise Legal Document Analyzer/
 ├── app/                  # Web interface
 │   └── viewer.py         # Streamlit UI
