@@ -50,13 +50,13 @@ streamlit run app/viewer.py
 # Project Structure
 
 Clausewise Legal Document Analyzer/
-├── app/                  # Web interface
-│   └── viewer.py         # Streamlit UI
-├── processing/           # Core analysis
-│   ├── extract_text.py   # Document parsing
-│   ├── detect_clauses.py # Clause identification  
-│   └── analyze_risk.py   # Risk assessment
-├── outputs/              # Analysis results
-├── contracts/            # Sample documents
-├── config.py             # Settings and patterns
-└── requirements.txt      # Dependencies
+├── app/                  #Web interface
+│   └── viewer.py         #Streamlit UI
+├── processing/           #Core analysis
+│   ├── extract_text.py   #Document parsing
+│   ├── detect_clauses.py #Clause identification  
+│   └── analyze_risk.py   #Risk assessment
+├── outputs/              #Analysis results
+├── contracts/            #Sample documents
+├── config.py             #Settings and patterns
+└── requirements.txt      #Dependencies
