@@ -51,6 +51,7 @@ Web Interface:
  - streamlit run app/viewer.py
 
 ## Project Structure
+```
 Clausewise Legal Document Analyzer/
 ├── app/                  # Web interface
 │   └── viewer.py         # Streamlit UI
@@ -62,3 +63,4 @@ Clausewise Legal Document Analyzer/
 ├── contracts/            # Sample documents
 ├── config.py             # Settings and patterns
 └── requirements.txt      # Dependencies
+```
